@@ -1,5 +1,11 @@
 #ifndef TASKS
 #define TASKS
+int _sqrt_recursion(int n);
+int _pow_recursion(int x, int y);
+int factorial(int n);
+int _strlen_recursion(char *s);
+void _print_rev_recursion(char *s);
+void _puts_recursion(char *s);
 void set_string(char **s, char *to);
 void print_diagsums(int *a, int size);
 void print_chessboard(char (*a)[8]);
